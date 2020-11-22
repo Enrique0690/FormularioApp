@@ -31,14 +31,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtN = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.chk1 = new System.Windows.Forms.CheckBox();
-            this.chk2 = new System.Windows.Forms.CheckBox();
-            this.chk3 = new System.Windows.Forms.CheckBox();
-            this.chk4 = new System.Windows.Forms.CheckBox();
-            this.chk5 = new System.Windows.Forms.CheckBox();
-            this.chk6 = new System.Windows.Forms.CheckBox();
-            this.chk7 = new System.Windows.Forms.CheckBox();
             this.chk8 = new System.Windows.Forms.CheckBox();
+            this.chk7 = new System.Windows.Forms.CheckBox();
+            this.chk6 = new System.Windows.Forms.CheckBox();
+            this.chk5 = new System.Windows.Forms.CheckBox();
+            this.chk4 = new System.Windows.Forms.CheckBox();
+            this.chk3 = new System.Windows.Forms.CheckBox();
+            this.chk2 = new System.Windows.Forms.CheckBox();
+            this.chk1 = new System.Windows.Forms.CheckBox();
             this.Calcular = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -46,7 +46,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(12, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(324, 27);
@@ -64,6 +66,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.chk8);
             this.groupBox1.Controls.Add(this.chk7);
             this.groupBox1.Controls.Add(this.chk6);
@@ -72,6 +75,7 @@
             this.groupBox1.Controls.Add(this.chk3);
             this.groupBox1.Controls.Add(this.chk2);
             this.groupBox1.Controls.Add(this.chk1);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Location = new System.Drawing.Point(111, 88);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(412, 112);
@@ -79,65 +83,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Equivalenta a binario";
             // 
-            // chk1
+            // chk8
             // 
-            this.chk1.AutoCheck = false;
-            this.chk1.AutoSize = true;
-            this.chk1.Location = new System.Drawing.Point(32, 48);
-            this.chk1.Name = "chk1";
-            this.chk1.Size = new System.Drawing.Size(15, 14);
-            this.chk1.TabIndex = 0;
-            this.chk1.UseVisualStyleBackColor = true;
-            // 
-            // chk2
-            // 
-            this.chk2.AutoCheck = false;
-            this.chk2.AutoSize = true;
-            this.chk2.Location = new System.Drawing.Point(77, 48);
-            this.chk2.Name = "chk2";
-            this.chk2.Size = new System.Drawing.Size(15, 14);
-            this.chk2.TabIndex = 1;
-            this.chk2.UseVisualStyleBackColor = true;
-            // 
-            // chk3
-            // 
-            this.chk3.AutoCheck = false;
-            this.chk3.AutoSize = true;
-            this.chk3.Location = new System.Drawing.Point(122, 48);
-            this.chk3.Name = "chk3";
-            this.chk3.Size = new System.Drawing.Size(15, 14);
-            this.chk3.TabIndex = 2;
-            this.chk3.UseVisualStyleBackColor = true;
-            // 
-            // chk4
-            // 
-            this.chk4.AutoCheck = false;
-            this.chk4.AutoSize = true;
-            this.chk4.Location = new System.Drawing.Point(169, 48);
-            this.chk4.Name = "chk4";
-            this.chk4.Size = new System.Drawing.Size(15, 14);
-            this.chk4.TabIndex = 3;
-            this.chk4.UseVisualStyleBackColor = true;
-            // 
-            // chk5
-            // 
-            this.chk5.AutoCheck = false;
-            this.chk5.AutoSize = true;
-            this.chk5.Location = new System.Drawing.Point(216, 48);
-            this.chk5.Name = "chk5";
-            this.chk5.Size = new System.Drawing.Size(15, 14);
-            this.chk5.TabIndex = 4;
-            this.chk5.UseVisualStyleBackColor = true;
-            // 
-            // chk6
-            // 
-            this.chk6.AutoCheck = false;
-            this.chk6.AutoSize = true;
-            this.chk6.Location = new System.Drawing.Point(261, 48);
-            this.chk6.Name = "chk6";
-            this.chk6.Size = new System.Drawing.Size(15, 14);
-            this.chk6.TabIndex = 5;
-            this.chk6.UseVisualStyleBackColor = true;
+            this.chk8.AutoCheck = false;
+            this.chk8.AutoSize = true;
+            this.chk8.Location = new System.Drawing.Point(364, 48);
+            this.chk8.Name = "chk8";
+            this.chk8.Size = new System.Drawing.Size(15, 14);
+            this.chk8.TabIndex = 7;
+            this.chk8.UseVisualStyleBackColor = true;
             // 
             // chk7
             // 
@@ -150,15 +104,65 @@
             this.chk7.UseVisualStyleBackColor = true;
             this.chk7.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
-            // chk8
+            // chk6
             // 
-            this.chk8.AutoCheck = false;
-            this.chk8.AutoSize = true;
-            this.chk8.Location = new System.Drawing.Point(364, 48);
-            this.chk8.Name = "chk8";
-            this.chk8.Size = new System.Drawing.Size(15, 14);
-            this.chk8.TabIndex = 7;
-            this.chk8.UseVisualStyleBackColor = true;
+            this.chk6.AutoCheck = false;
+            this.chk6.AutoSize = true;
+            this.chk6.Location = new System.Drawing.Point(261, 48);
+            this.chk6.Name = "chk6";
+            this.chk6.Size = new System.Drawing.Size(15, 14);
+            this.chk6.TabIndex = 5;
+            this.chk6.UseVisualStyleBackColor = true;
+            // 
+            // chk5
+            // 
+            this.chk5.AutoCheck = false;
+            this.chk5.AutoSize = true;
+            this.chk5.Location = new System.Drawing.Point(216, 48);
+            this.chk5.Name = "chk5";
+            this.chk5.Size = new System.Drawing.Size(15, 14);
+            this.chk5.TabIndex = 4;
+            this.chk5.UseVisualStyleBackColor = true;
+            // 
+            // chk4
+            // 
+            this.chk4.AutoCheck = false;
+            this.chk4.AutoSize = true;
+            this.chk4.Location = new System.Drawing.Point(169, 48);
+            this.chk4.Name = "chk4";
+            this.chk4.Size = new System.Drawing.Size(15, 14);
+            this.chk4.TabIndex = 3;
+            this.chk4.UseVisualStyleBackColor = true;
+            // 
+            // chk3
+            // 
+            this.chk3.AutoCheck = false;
+            this.chk3.AutoSize = true;
+            this.chk3.Location = new System.Drawing.Point(122, 48);
+            this.chk3.Name = "chk3";
+            this.chk3.Size = new System.Drawing.Size(15, 14);
+            this.chk3.TabIndex = 2;
+            this.chk3.UseVisualStyleBackColor = true;
+            // 
+            // chk2
+            // 
+            this.chk2.AutoCheck = false;
+            this.chk2.AutoSize = true;
+            this.chk2.Location = new System.Drawing.Point(77, 48);
+            this.chk2.Name = "chk2";
+            this.chk2.Size = new System.Drawing.Size(15, 14);
+            this.chk2.TabIndex = 1;
+            this.chk2.UseVisualStyleBackColor = true;
+            // 
+            // chk1
+            // 
+            this.chk1.AutoCheck = false;
+            this.chk1.AutoSize = true;
+            this.chk1.Location = new System.Drawing.Point(32, 48);
+            this.chk1.Name = "chk1";
+            this.chk1.Size = new System.Drawing.Size(15, 14);
+            this.chk1.TabIndex = 0;
+            this.chk1.UseVisualStyleBackColor = true;
             // 
             // Calcular
             // 
@@ -174,6 +178,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.BackgroundImage = global::FormularioApp.Properties.Resources._2;
             this.ClientSize = new System.Drawing.Size(671, 250);
             this.Controls.Add(this.Calcular);
             this.Controls.Add(this.groupBox1);
