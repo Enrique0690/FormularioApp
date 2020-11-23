@@ -73,6 +73,26 @@ namespace FormularioApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3 {
+            get {
+                object obj = ResourceManager.GetObject("3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap astronaut_swing_bouquet_space_art {
+            get {
+                object obj = ResourceManager.GetObject("astronaut-swing-bouquet-space-art", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pink_floyd_el_lado_oscuro_de_la_luna_4033x2521_xtrafondos_com {
             get {
                 object obj = ResourceManager.GetObject("pink-floyd-el-lado-oscuro-de-la-luna_4033x2521_xtrafondos.com", resourceCulture);
