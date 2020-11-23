@@ -92,11 +92,12 @@
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Equivalenta a binario";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // chk8
             // 
             this.chk8.AutoSize = true;
-            this.chk8.Location = new System.Drawing.Point(364, 48);
+            this.chk8.Location = new System.Drawing.Point(31, 68);
             this.chk8.Name = "chk8";
             this.chk8.Size = new System.Drawing.Size(15, 14);
             this.chk8.TabIndex = 7;
@@ -105,7 +106,7 @@
             // chk7
             // 
             this.chk7.AutoSize = true;
-            this.chk7.Location = new System.Drawing.Point(310, 48);
+            this.chk7.Location = new System.Drawing.Point(80, 68);
             this.chk7.Name = "chk7";
             this.chk7.Size = new System.Drawing.Size(15, 14);
             this.chk7.TabIndex = 6;
@@ -114,7 +115,7 @@
             // chk6
             // 
             this.chk6.AutoSize = true;
-            this.chk6.Location = new System.Drawing.Point(261, 48);
+            this.chk6.Location = new System.Drawing.Point(126, 68);
             this.chk6.Name = "chk6";
             this.chk6.Size = new System.Drawing.Size(15, 14);
             this.chk6.TabIndex = 5;
@@ -123,7 +124,7 @@
             // chk5
             // 
             this.chk5.AutoSize = true;
-            this.chk5.Location = new System.Drawing.Point(216, 48);
+            this.chk5.Location = new System.Drawing.Point(167, 68);
             this.chk5.Name = "chk5";
             this.chk5.Size = new System.Drawing.Size(15, 14);
             this.chk5.TabIndex = 4;
@@ -132,7 +133,7 @@
             // chk4
             // 
             this.chk4.AutoSize = true;
-            this.chk4.Location = new System.Drawing.Point(169, 48);
+            this.chk4.Location = new System.Drawing.Point(216, 68);
             this.chk4.Name = "chk4";
             this.chk4.Size = new System.Drawing.Size(15, 14);
             this.chk4.TabIndex = 3;
@@ -141,7 +142,7 @@
             // chk3
             // 
             this.chk3.AutoSize = true;
-            this.chk3.Location = new System.Drawing.Point(122, 48);
+            this.chk3.Location = new System.Drawing.Point(261, 68);
             this.chk3.Name = "chk3";
             this.chk3.Size = new System.Drawing.Size(15, 14);
             this.chk3.TabIndex = 2;
@@ -150,7 +151,7 @@
             // chk2
             // 
             this.chk2.AutoSize = true;
-            this.chk2.Location = new System.Drawing.Point(77, 48);
+            this.chk2.Location = new System.Drawing.Point(310, 68);
             this.chk2.Name = "chk2";
             this.chk2.Size = new System.Drawing.Size(15, 14);
             this.chk2.TabIndex = 1;
@@ -159,7 +160,7 @@
             // chk1
             // 
             this.chk1.AutoSize = true;
-            this.chk1.Location = new System.Drawing.Point(32, 48);
+            this.chk1.Location = new System.Drawing.Point(364, 68);
             this.chk1.Name = "chk1";
             this.chk1.Size = new System.Drawing.Size(15, 14);
             this.chk1.TabIndex = 0;

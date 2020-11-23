@@ -89,9 +89,9 @@
             // txtfrase
             // 
             this.txtfrase.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfrase.Location = new System.Drawing.Point(25, 197);
+            this.txtfrase.Location = new System.Drawing.Point(12, 197);
             this.txtfrase.Name = "txtfrase";
-            this.txtfrase.Size = new System.Drawing.Size(382, 32);
+            this.txtfrase.Size = new System.Drawing.Size(406, 32);
             this.txtfrase.TabIndex = 5;
             // 
             // Edad

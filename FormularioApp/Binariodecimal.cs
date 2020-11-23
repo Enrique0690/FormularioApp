@@ -63,5 +63,10 @@ namespace FormularioApp
             }
             txtNumero.Text = sumar.ToString();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

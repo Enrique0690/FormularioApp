@@ -29,23 +29,23 @@ namespace FormularioApp
             }
             else if (edad >= 15 && edad <= 17)
             {
-                txtfrase.Text = "Eres menor de edad";
+                txtfrase.Text = "Eres menor de edad dile no al alcohol";
             }
             else if (edad >= 18 && edad <= 25)
             {
-                txtfrase.Text = "Puedes votar en las elecciones 2021";
+                txtfrase.Text = "Eres mayor de edad se responsable";
             }
             else if (edad >= 26 && edad <= 30)
             {
-                txtfrase.Text = "Ya debes casarte";
+                txtfrase.Text = "Deberias pensar en casarte";
             }
             else if (edad >= 31 && edad <= 50)
             {
-                txtfrase.Text = "Trabaja, duerme y disfruta";
+                txtfrase.Text = "Trabaja, duerme y disfruta la vida solo es una";
             }
             else if (edad > 50)
             {
-                txtfrase.Text = "Ya casi llegas a la tercera edad";
+                txtfrase.Text = "Ya casi llegas a la tercera edad, suerte";
             }
         }
     }
