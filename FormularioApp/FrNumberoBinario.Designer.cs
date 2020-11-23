@@ -1,6 +1,6 @@
 ﻿namespace FormularioApp
 {
-    partial class FrNumberoBinario
+    partial class FrNumeroBinario
     {
         /// <summary>
         /// Required designer variable.
@@ -174,7 +174,7 @@
             this.Calcular.UseVisualStyleBackColor = true;
             this.Calcular.Click += new System.EventHandler(this.Calcular_Click);
             // 
-            // FrNumberoBinario
+            // FrNumeroBinario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -185,7 +185,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.label1);
-            this.Name = "FrNumberoBinario";
+            this.Name = "FrNumeroBinario";
             this.Text = "FrNumberoBinario";
             this.Load += new System.EventHandler(this.FrNumberoBinario_Load);
             this.groupBox1.ResumeLayout(false);

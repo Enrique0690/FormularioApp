@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormularioApp
 {
-    public partial class FrNumberoBinario : Form
+    public partial class FrNumeroBinario : Form
     {
-        public FrNumberoBinario()
+        public FrNumeroBinario()
         {
             InitializeComponent();
         }
