@@ -10,33 +10,43 @@ using System.Windows.Forms;
 
 namespace FormularioApp
 {
-    public partial class NumerosN : Form
+    public partial class Edad : Form
     {
-        public NumerosN()
+        public Edad()
         {
             InitializeComponent();
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
-            {
-                MessageBox.Show("Solo numeros", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                e.Handled = true;
-                return;
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.txtnumero.Text.Length == 0)
+            // Condiciones 
+            int edad = int.Parse(txtEdad.Text);
+            if (!(edad >= 15 && edad <= 80))
             {
-                MessageBox.Show("Por Favor debes ingresar un numero");
-                this.txtnumero.Focus();
+                MessageBox.Show("Ingresa una edad entre 15 y 80 años", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txtEdad.Focus();
                 return;
             }
-            int numero = int.Parse(this.txtnumero.Text);
-
+            else if (edad >= 15 && edad <= 17)
+            {
+                txtfrase.Text = "Eres menor de edad";
+            }
+            else if (edad >= 18 && edad <= 25)
+            {
+                txtfrase.Text = "Puedes votar en las elecciones 2021";
+            }
+            else if (edad >= 26 && edad <= 30)
+            {
+                txtfrase.Text = "Ya debes casarte";
+            }
+            else if (edad >= 31 && edad <= 50)
+            {
+                txtfrase.Text = "Trabaja, duerme y disfruta";
+            }
+            else if (edad > 50)
+            {
+                txtfrase.Text = "Ya casi llegas a la tercera edad";
+            }
         }
     }
 }
